@@ -1,0 +1,31 @@
+.typography {
+  all: unset;
+}
+
+.typography.copy {
+  font-size: var(--copy);
+  font-weight: 400;
+}
+
+.typography.bold {
+  font-weight: 600;
+}
+
+.typography.xl {
+  font-size: var(--xl);
+  font-weight: 600;
+  line-height: var(--xl-line-height);
+  letter-spacing: var(--xl-letter-spacing);
+}
+
+.typography.lg {
+  font-size: var(--lg);
+}
+
+.typography.md {
+  font-size: var(--md);
+}
+
+.typography.sm {
+  font-size: var(--sm);
+}

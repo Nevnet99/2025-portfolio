@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gabarito', sans-serif;
+}
+
+:root {
+  /* Fluid Typography using clamp() */
+  --xl: clamp(3.5rem, 8vw + 1rem, 11.089rem);
+  --xl-line-height: 62.3%;
+  --xl-letter-spacing: -2%;
+  
+  --lg: clamp(2.5rem, 6vw + 1rem, 6.854rem);
+  --md: clamp(2rem, 4vw + 1rem, 4.236rem);
+  --sm: clamp(1.5rem, 2vw + 1rem, 2.618rem);
+  --copy: clamp(1rem, 1vw + 0.5rem, 1.2rem);
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #fff;
+    --background-secondary: #fafafa;
+    --text: #191919;
+    --primary: #FEF2C4;
+    --focus: #2563EB;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191919;
+    --background-secondary: #0e0e0e;
+    --text: #fff;
+    --primary: #FEF2C4;
+    --focus: #2563EB;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+
+

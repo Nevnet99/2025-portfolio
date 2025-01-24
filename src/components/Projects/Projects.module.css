@@ -1,0 +1,53 @@
+.projectsSection {
+  position: relative;
+}
+
+.projectTitle {
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+}
+
+.projectsBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  max-width: 75%;
+  max-height: 75%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+.projectsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+  text-align: center;
+}
+
+.projectItem {
+  position: relative;
+}
+
+.projectBackground {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: var(--primary);
+  left: 0;
+  height: 0;
+  width: 100%;
+  transform: rotate(1turn);
+}
+
+.projectsCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

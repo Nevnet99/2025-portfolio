@@ -1,0 +1,40 @@
+.button {
+  all: unset;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--text);
+  border-radius: 0.5rem;
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:hover {
+ background: var(--background-secondary);
+
+}
+
+.button.icon {
+  display: flex;
+  align-items: center;  
+  gap: 0.5rem;
+  border: none;
+}
+
+.button.ghost {
+  all: unset;
+  cursor: pointer;
+}
+.button.ghost:focus-visible {
+  outline: 2px solid var(--focus);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--focus);
+}
