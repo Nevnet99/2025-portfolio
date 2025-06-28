@@ -6,7 +6,7 @@ import styles from "./Blog.module.css";
 const blogPosts = [
   {
     slug: "building-with-react-three-fiber",
-    title: "Building Immersive 3D Experiences with React Three Fiber",
+    title: "Building Immersive 3D Experiences with React Three Fiber ",
     excerpt: "React Three Fiber is a powerful React renderer for Three.js, making it easier than ever to create stunning 3D experiences on the web.",
     date: "March 15, 2024",
     readingTime: "8 min read",
